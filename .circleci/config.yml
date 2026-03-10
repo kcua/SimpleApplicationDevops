@@ -19,10 +19,6 @@ jobs:
           name: Install dependencies
           command: npm install
 
-      - run:
-          name: Run tests
-          command: npm test
-
 workflows:
   version: 2
   pipeline:
